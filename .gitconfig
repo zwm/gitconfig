@@ -1,0 +1,12 @@
+[usr]
+	name = zwm
+[user]
+	email = mingforregister@163.com
+	name = zwm
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	unstage = reset HEAD --
+	last = log -1 HEAD
