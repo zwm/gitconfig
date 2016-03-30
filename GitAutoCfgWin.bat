@@ -27,7 +27,8 @@ REM ------------------------------------------------------------
 REM Copy file
 REM ------------------------------------------------------------
 echo ##  Copying files ...
-copy /y .\resource\.gitconfig C:\users\%username%
+copy /y %cd%\resource\.gitconfig C:\users\%username%
+copy /y %cd%\resource\.gitignore_global C:\users\%username%
 echo ##  Copy file finish !
 echo.
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

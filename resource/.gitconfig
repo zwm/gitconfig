@@ -14,3 +14,4 @@
 	default = simple
 [core]
 	autocrlf = false
+	excludesfile = C:/Users/wbird.zhang/.gitignore_global
