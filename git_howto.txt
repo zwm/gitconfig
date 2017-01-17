@@ -1,0 +1,20 @@
+20170117
+
+[git branch]
+git branch 分支名                           // 创建分支
+git checkout 分支名                         // 切换到某分支
+git branch -d 分支名                        // 删除某分支
+git branch                                  // 列出所有分支
+git branch -a                               // 查看远程分支
+git branch --merged/--no-merged             // 查看哪些分支已（未）并入当前分支
+git checkout -b 分支名                      // 创建并切换到某分支
+git merge 分支名                            // 把某分支合并到当前分支
+
+远程分支表示法
+远程仓库名/分支名
+
+远程分支是本地分支push到服务器的时候产生的。
+
+[git push]
+git push 远程仓库名 本地分支：远程分支      // 把本地分支推送到远程分支
+git push 远程仓库名 分支名                  // 简化版
