@@ -1,5 +1,14 @@
 20170117
 
+[Install for Windows]
+1. 搜索 "git 安装"
+2. 安装 msysgit 
+
+[SSH GEN]
+1. 右键git bash here
+2. 命令行中输入 ssh-keygen -t rsa -C "xxxxxx@yy.com"
+3. 把生成的id_rsa.pub中的内容复制到github/personal settings/SSH and GPG keys/New SSH key
+
 [git branch]
 git branch 分支名                           // 创建分支
 git checkout 分支名                         // 切换到某分支
