@@ -47,4 +47,12 @@ Git作为目前逼格最高的源代码管理工具，SVN这个优良的特性�
 AD: https://www.zhihu.com/question/19946553
 SM: 每次修改可能包含多个功能，单个提交繁琐，全部提交只能全部恢复，如果修改包含多个功能，会带来不方便。加入add后，可以对每次提交做控制，一次修改可以按功能分多次提交，则以后恢复时，可以按功能点进行快照恢复，在复杂系统中，此功能非常必要和实用。
 
-
+[git tag]
+git log --oneline                           // 显示提交历史
+git tag -a v1.01 -m "v1.01" 75a873d         // 为某提交版本75a873d打标签，-a是添加标签，-m是添加注释
+git push origin -tags                       // 提交标签到远程仓库
+git tag -d v1.01                            // 删除标签
+git push origin :refs/tags/v1.01            // 删除远程标签
+git tag                                     // 查看标签
+git checkout [tagname]                      // 切换到标签
+git show v0.1.2                             // 查看标签版本信息
