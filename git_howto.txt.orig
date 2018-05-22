@@ -57,10 +57,11 @@ git tag                                     // 查看标签
 git checkout [tagname]                      // 切换到标签
 git show v0.1.2                             // 查看标签版本信息
 
+<<<<<<< HEAD
 20180511
 checkout 远程非master分支
 一键拉取本地上不存在的远程分支：git checkout -b new_branch origin/new_branch. 此外不要在一个问题提多个问题，特别是和题目无关的
-
+=======
 20180510
 问题描述
 我们每次使用命令
