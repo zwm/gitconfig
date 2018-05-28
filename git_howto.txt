@@ -96,5 +96,7 @@ $ git checkout python_mail.skin
 $ git pull origin python_mail.skin:python_mail.skin
 因为，这样建立的branch是以master为基础建立的，再pull下来的话，会和master的内容进行合并，有可能会发生冲突... 
 
- 
->>>>>>> 3714c63a89b42b50120cd1dbe2d4ab81d03037f6
+20180528
+SSH
+ssh-keygen -t rsa -C "email@xx"
+copy ~/.ssh/id_rsa.pub to github web ssh setting!!
