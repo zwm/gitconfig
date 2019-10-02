@@ -60,6 +60,9 @@ git show v0.1.2                             // 查看标签版本信息
 20180511
 checkout 远程非master分支
 一键拉取本地上不存在的远程分支：git checkout -b new_branch origin/new_branch. 此外不要在一个问题提多个问题，特别是和题目无关的
+//!!!!! 这个命令更好用！
+$ git checkout -t origin/develop
+//!!!!
 
 20180510
 问题描述
@@ -100,3 +103,6 @@ $ git pull origin python_mail.skin:python_mail.skin
 SSH
 ssh-keygen -t rsa -C "email@xx"
 copy ~/.ssh/id_rsa.pub to github web ssh setting!!
+// test
+ssh -T git@github.com
+
