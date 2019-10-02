@@ -106,3 +106,6 @@ copy ~/.ssh/id_rsa.pub to github web ssh setting!!
 // test
 ssh -T git@github.com
 
+20191002
+how to set ignore?
+git config --global core.excludesfile ~/.gitignore_global
