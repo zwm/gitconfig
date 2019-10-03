@@ -109,3 +109,8 @@ ssh -T git@github.com
 20191002
 how to set ignore?
 git config --global core.excludesfile ~/.gitignore_global
+
+20191003
+git add -A // add all modified, deleted and new created files
+git add -u // add all modified and deleted files, exclude new created files!
+git add . // add all modified and new created files, exclude deleted files!
