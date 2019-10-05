@@ -1,3 +1,0 @@
-#!/bin/bash
-cp -f ~/.gitconfig ./
-cp -f ~/.gitignore_global ./
