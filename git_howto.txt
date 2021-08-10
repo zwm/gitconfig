@@ -35,6 +35,16 @@ git diff master origin/master   // 已提交未推送[20191012，经测试不好
 git checkout xxx    // 已修改，未暂存
 git reset xx        // 把暂存文件恢复到未暂存状态
 git reset --hard origin/master // 已提交，未推送
+// merge
+git co branch_1
+git pull // update branch_1
+git co master
+git pull
+git merge branch_1 // merge branch_1 to master
+// conflict
+gvim 111.v
+gvim 222.v
+git add 111.v 222.v
 
 
 远程分支表示法
@@ -112,3 +122,8 @@ git config --global core.excludesfile ~/.gitignore_global
 git add -A // add all modified, deleted and new created files
 git add -u // add all modified and deleted files, exclude new created files!
 git add . // add all modified and new created files, exclude deleted files!
+
+20200307
+create new file ~/.gitignore
+*.swp
+
