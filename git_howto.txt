@@ -45,6 +45,7 @@ git merge branch_1 // merge branch_1 to master
 gvim 111.v
 gvim 222.v
 git add 111.v 222.v
+git ci -m "merge xxx" -i . // -i add the path to stage
 
 
 远程分支表示法
