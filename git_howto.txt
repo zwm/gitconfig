@@ -128,3 +128,29 @@ git add . // add all modified and new created files, exclude deleted files!
 create new file ~/.gitignore
 *.swp
 
+20211105
+Merge Branch
+    git co develop
+    git pull
+    git co dvlp_zpk
+    git pull dvlp_zpk
+    git co develop
+    git merge dvlp_zpk
+
+Resolve Conflict
+    1) find conflict files
+        both modified: xxx.c
+        both added: xxx.c
+    2) edit each file xxx.c
+           <<<<<<<< HEAD
+                your code
+           ========
+                others code
+           >>>>>>>> branch_name
+    3) git add
+        git add xxx.c
+        git add yyy.c
+    4) git ci -a // must commit all when merge
+        edit commit
+
+
