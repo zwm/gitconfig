@@ -25,6 +25,8 @@ git checkout -b 分支名                      // 创建并切换到某分支
 git merge 分支名                            // 把某分支合并到当前分支
 // modify
 git add xxx         // 把文件修改添加到暂存区
+git add *    // add all exclude hidden files!
+git add .    // add all include hidden files!
 git commit xxx      // 把暂存区的所有内容提交到当前分支
 git push            // 把当前分支修改提交到远程仓库
 // diff
